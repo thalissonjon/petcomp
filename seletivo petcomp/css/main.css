@@ -1,0 +1,322 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.header1 {
+    background-color: #AED6F1;
+    height: 70px;
+    width: 100%;
+    border-bottom: 3px solid #839192;
+}
+.topo h1{
+    position: absolute;
+    left: 40%;
+}
+
+.logo {
+    position: relative;
+    padding: 5px;
+    left: 20%;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.header2 {
+    margin: 0 auto;
+    width: 82%;
+    background-color: white;
+    display: flex;
+}
+
+ul {
+    padding: 0px!important; 
+}
+
+
+.menu_url {
+    border-bottom: 3px solid #839192;
+    height: 50px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #717D7E;
+    margin-left: 80px;
+}
+.menu ul li a {
+    color: #717D7E;
+    text-decoration: none;
+    font-size: 15px;
+}
+.menu ul li a:hover {
+    color: #0C2AD3;
+    border-bottom: 1px solid #0C2AD3;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    z-index: 9;
+    top: 300;
+    height: 50px;
+    width: 40;
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../img/arrowL.png);
+    left: 10%
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    z-index: 9;
+    top: 300;
+    height: 50px;
+    width: 40;
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../img/arrowR.png);
+    right: 12%;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 44%;
+    top: 70%;
+}
+.slick-dots li{
+    padding-left: 15px;
+    display: inline-block;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+li.slick-active button {
+    background-color:#AED6F1;
+}
+
+.tam100evento {
+    border-top: 3px solid #839192;
+    width: 100%;
+    background-color: white;
+    border-bottom: 3px solid #839192;
+}
+
+.evento_about {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.evento_about h1 {
+    padding: 20px;
+    color: #5DADE2;
+    margin: 0 auto;
+    font-family: cursive;
+    width: 20%;
+    border-radius: 30px;
+    border-bottom: 4px groove #AED6F1;
+}
+.event_about p {
+    color: #34495E;
+    font-family: cursive;
+}
+
+.evento_cronograma {
+    background-color: #E5E7E9;
+    border-top: 3px solid #839192;
+    border-bottom: 3px solid #839192;
+}
+.evento_cronograma h1 {
+    padding: 20px;
+    color: #5DADE2;
+    margin: 0 auto;
+    font-family: cursive;
+    width: 30%;
+    border-radius: 30px;
+    border-bottom: 4px groove #AED6F1;
+}
+
+table.cronograma{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 250px;
+}
+
+.submissao_trabalhos {
+    text-align: center;
+    border-bottom: 3px solid #839192 ;
+
+}
+.submissao_trabalhos h1{
+    padding: 20px;
+    color: #5DADE2;
+    margin: 0 auto;
+    font-family: cursive;
+    width: 32%;
+    border-radius: 30px;
+    border-bottom: 4px groove #AED6F1;
+}
+
+.botao{
+    transition-duration: 0.5s;
+    font-size: 18px;
+    font-family: Verdana; 
+    color: black; 
+    font-weight: 500;
+    background-color: #AED6F1;
+    margin-top: 20px; 
+    border-radius: 12px; 
+    border-color: transparent;
+    margin-bottom: 30px;
+}
+.botao:hover {
+    background-color: #292727;
+    color: #AED6F1;
+}
+
+.formulario_inscriçao {
+    background-color: #E5E7E9;
+    border-bottom: 3px solid #839192;
+}
+.formulario_inscriçao h1{
+    padding: 20px;
+    color: #5DADE2;
+    margin: 0 auto;
+    font-family: cursive;
+    width: 35%;
+    border-radius: 30px;
+    border-bottom: 4px groove #AED6F1;
+}
+
+.formulario{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    font-family: Verdana;
+    font-weight: 600;
+}
+input, textarea{
+    border-radius: 6px;
+    border-color: #839192;
+}
+.campo input[type=text]{
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+    display: block;
+    margin-bottom: 13px;
+    width: 205px;
+}
+.localbotaoform{
+    position: relative;
+    text-align: center;
+}
+
+.contatos h1{
+    padding: 20px;
+    color: #5DADE2;
+    margin: 0 auto;
+    font-family: cursive;
+    width: 20%;
+    border-radius: 30px;
+    border-bottom: 4px groove #AED6F1;
+    text-align: center;
+}
+
+.col h3{
+    font-size: 16px;
+    color: #2C3E50;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.col{
+    width: 33,3%;
+    float: left;
+    padding-left: 225px;
+    position: relative;
+    top: 15px;
+    border-bottom: black;
+    height: 350px;
+}
+
+.FAQ h1{
+    padding: 20px;
+    color: #5DADE2;
+    margin: 0 auto;
+    font-family: cursive;
+    width: 20%;
+    border-radius: 30px;
+    border-bottom: 4px groove #AED6F1;
+    text-align: center;
+}
+
+.FAQ {
+    top: 100px;
+    margin-top: 50px;
+}
+
+.FAQ h2 {
+    text-align: center;
+    background-color: #E5E7E9;
+    font-style: verdana;
+}
+
+.FAQ h3 {
+    text-align: center;
+    font-style: verdana;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#finalFAQ {
+    color: #5DADE2;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style: verdana;
+    margin: 0px;
+    height: 60px;
+}
+.footer h2{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.footer h3{
+    font-weight: 100;
+    font-size: 15px;
+}
+.footer2 {
+    text-align: center;
+    right: 50%;
+    background-color: navy;
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+    font-style: verdana;
+}
